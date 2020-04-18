@@ -1,5 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This project is a live timetable for school
+* It allows controlling events from your network drive
+* It allows a simple UI for your kid to launch a zoom session
 
+---
 Before running, you should (manually) create the events file. This is a temporary step until we know what kind of input we can parse. 
 
 * You need to create "resources" folder under src/. (You can create this folder as a symbolic link to your network drive.)
