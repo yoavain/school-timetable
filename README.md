@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Before running:
+
+* You need to create "resources" folder under src/
+* Create an "events.ts" file in the resources folder. Example:
+```js
+export const HEADLINE = "מערכת שעות"
+
+export const EVENTS = [
+    {
+        title: 'שבת',
+        allDay: true,
+        start: new Date(2020, 3, 18),
+        end: new Date(2020, 3, 19),
+    },
+    {
+        title: 'לימודים מרחוק',
+        link: "https://zoom.us/j/1234567890",
+        start: new Date(2020, 3, 18, 8, 30),
+        end: new Date(2020, 3, 18, 9),
+    }
+]
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
