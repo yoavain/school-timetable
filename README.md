@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Before running:
+Before running, you should (manually) create the events file. This is a temporary step until we know what kind of input we can parse. 
 
 * You need to create "resources" folder under src/. (You can create this folder as a symbolic link to your network drive.)
 * Create an "events.ts" file in the resources folder. Example:
