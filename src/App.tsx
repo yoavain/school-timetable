@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import Clock from 'react-live-clock';
-import { Calendar, momentLocalizer, Views } from 'react-big-calendar'
+import { Calendar, Messages, momentLocalizer, Views } from 'react-big-calendar'
 import * as ReactFitText from 'react-fittext';
 import * as moment from 'moment';
 import 'moment/locale/he';
@@ -12,6 +12,13 @@ import 'react-big-calendar/lib/css/react-big-calendar.css'
 const localizer = momentLocalizer(moment);
 
 const views = [Views.WEEK, Views.DAY];
+const MESSAGES: Messages = {
+    day: "יום",
+    week: "שבוע",
+    previous: "הקודם",
+    next: "הבא",
+    today: "היום"
+}
 
 const ColoredDateCellWrapper = ({ children }) =>
     React.cloneElement(React.Children.only(children), {
@@ -50,6 +57,7 @@ function App() {
             <Calendar
                 localizer={localizer}
                 rtl={true}
+                messages={MESSAGES}
                 events={EVENTS}
                 views={views}
                 step={30}
