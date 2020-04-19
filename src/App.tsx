@@ -49,6 +49,7 @@ function App() {
             </div>
             <Calendar
                 localizer={localizer}
+                rtl={true}
                 events={EVENTS}
                 views={views}
                 step={30}
