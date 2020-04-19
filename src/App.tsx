@@ -46,7 +46,7 @@ function App() {
                     <h1>
                         <span style={{ float: "right", marginRight: "15%" }}>{HEADLINE}</span>
                         <Clock
-                            format="HH:mm:ss"
+                            format="H:mm"
                             interval={1000}
                             ticking={true}
                             style={{ marginLeft: "15%" }}
@@ -69,7 +69,9 @@ function App() {
                 min={new Date(0, 0, 0, 8)}
                 max={new Date(0, 0, 0, 13)}
                 formats={{
-                    dayFormat: "(DD/MM) dddd"
+                    dayFormat: "(DD/MM) dddd",
+                    timeGutterFormat: "H:mm",
+                    agendaTimeFormat: "H:mm"
                 }}
             />
         </div>
