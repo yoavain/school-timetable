@@ -67,7 +67,7 @@ function App() {
                 components={{ timeSlotWrapper: ColoredDateCellWrapper }}
                 onDoubleClickEvent={onDoubleClickEvent}
                 min={new Date(0, 0, 0, 8)}
-                max={new Date(0, 0, 0, 13)}
+                max={new Date(0, 0, 0, 12)}
                 formats={{
                     dayFormat: "(DD/MM) dddd",
                     timeGutterFormat: "H:mm",
