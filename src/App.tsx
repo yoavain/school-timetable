@@ -29,7 +29,7 @@ const ColoredDateCellWrapper = ({ children }) =>
     })
 
 const onDoubleClickEvent = (event) => {
-    const message = `${event.title}${event.link ? `\nOpening ${event.link}` : ""}`;
+    const message = `${event.title}${event.link ? `\nפותח קישור: ${event.link}` : ""}`;
     alert(message);
 
     if (event.link) {
