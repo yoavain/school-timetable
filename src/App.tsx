@@ -24,7 +24,7 @@ const ColoredDateCellWrapper = ({ children }) =>
     React.cloneElement(React.Children.only(children), {
         style: {
             backgroundColor: 'lightblue',
-            minHeight: '80px'
+            minHeight: '40px'
         },
     })
 
