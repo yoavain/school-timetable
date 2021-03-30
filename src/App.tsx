@@ -3,7 +3,7 @@ import React from 'react';
 import Clock from 'react-live-clock';
 import { Calendar, Messages, momentLocalizer, Views } from 'react-big-calendar'
 import * as ReactFitText from 'react-fittext';
-import * as moment from 'moment';
+import moment from 'moment';
 import 'moment/locale/he';
 import { EVENTS, HEADLINE } from "./resources/events";
 import './App.css';
@@ -11,7 +11,7 @@ import 'react-big-calendar/lib/css/react-big-calendar.css'
 
 const localizer = momentLocalizer(moment);
 
-const views = [Views.WEEK, Views.DAY];
+const views: Views[] = [Views.WEEK, Views.DAY];
 const MESSAGES: Messages = {
     day: "יום",
     week: "שבוע",
@@ -30,7 +30,7 @@ const ColoredDateCellWrapper = ({ children }) =>
 
 const onDoubleClickEvent = (event) => {
     const message = `${event.title}${event.link ? `\nפותח קישור: ${event.link}` : ""}`;
-    alert(message);
+    // alert(message);
 
     if (event.link) {
         const win = window.open(event.link, '_blank');
