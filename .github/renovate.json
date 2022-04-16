@@ -1,0 +1,37 @@
+{
+    "extends": ["config:base"],
+    "labels": ["renovate", "dependencies"],
+    "packageRules": [
+        {
+            "matchPackageNames": ["eslint"],
+            "matchPackagePatterns": ["^eslint-plugin", "^@typescript-eslint/"],
+            "groupName": "eslint packages"
+        },
+        {
+            "matchPackageNames": ["typescript", "ts-node", "ts-jest"],
+            "matchPackagePatterns": ["^@tsconfig/"],
+            "groupName": "typescript packages"
+        },
+        {
+            "matchPackageNames": ["jest", "@types/jest"],
+            "groupName": "jest packages"
+        },
+        {
+            "depTypeList": ["dependencies"],
+            "labels": ["dependencies"],
+            "updateTypes": ["minor", "patch"]
+        },
+        {
+            "depTypeList": ["devDependencies"],
+            "labels": ["dev-dependencies"],
+            "updateTypes": ["minor", "patch"]
+        }
+    ],
+    "prConcurrentLimit": 5,
+    "ignoreNpmrcFile": true,
+    "timezone": "Asia/Jerusalem",
+    "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": "after 10pm on saturday"
+    }
+}
