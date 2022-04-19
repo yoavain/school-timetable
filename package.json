@@ -31,7 +31,7 @@
     "react-big-calendar": "0.40.1",
     "react-dom": "18.0.0",
     "react-fittext": "1.0.0",
-    "react-live-clock": "5.8.1",
+    "react-live-clock": "5.8.2",
     "react-moment": "1.1.2",
     "react-scripts": "5.0.1"
   },
