@@ -29,7 +29,7 @@
     "moment-timezone": "0.5.38",
     "node-sass": "7.0.3",
     "react": "18.2.0",
-    "react-big-calendar": "1.5.0",
+    "react-big-calendar": "1.5.1",
     "react-dom": "18.2.0",
     "react-fittext": "1.0.0",
     "react-live-clock": "6.0.7",
