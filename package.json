@@ -29,7 +29,7 @@
     "moment-timezone": "0.5.45",
     "node-sass": "9.0.0",
     "react": "18.2.0",
-    "react-big-calendar": "1.8.6",
+    "react-big-calendar": "1.11.3",
     "react-dom": "18.2.0",
     "react-fittext": "1.0.0",
     "react-live-clock": "6.1.20",
@@ -37,14 +37,14 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "6.2.0",
-    "@testing-library/react": "14.1.2",
+    "@testing-library/jest-dom": "6.4.2",
+    "@testing-library/react": "14.3.0",
     "@testing-library/user-event": "14.5.2",
     "@types/jest": "29.5.12",
-    "@types/node": "20.11.5",
-    "@types/react": "18.2.48",
-    "@types/react-big-calendar": "1.8.8",
-    "@types/react-dom": "18.2.18",
+    "@types/node": "20.12.6",
+    "@types/react": "18.2.75",
+    "@types/react-big-calendar": "1.8.9",
+    "@types/react-dom": "18.2.24",
     "typescript": "5.4.4"
   }
 }
